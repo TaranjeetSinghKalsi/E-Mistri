@@ -1,0 +1,207 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+html{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+#logo{
+  width: 150px;
+}
+
+
+
+/* title */
+#title {
+  /* background-color: #4cff73; */
+   background: rgba(0, 0, 0, 0.5) url("images/home-bg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    
+
+}
+.container-fluid {
+  padding: 1px 10% 5.5%;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: 700;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #000;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 4%;
+  color: #CECCCB;
+}
+.img-1 {
+  width: 300px;
+  transform: rotate(25deg);
+  margin-left: 7%;
+  position: absolute;
+}
+.navbar {
+  padding-bottom: 5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+#features {
+  padding: 10% 17%;
+  text-align: center;
+  width: 98vw;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.features-section {
+  margin-left: 7%;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+.features-icon {
+  font-size: 5rem;
+  color:#319bff;
+
+}
+.features-icon:hover {
+  color: #0084ff;
+}
+.features-section > p {
+  font-family: "Poppin", sans-serif;
+  font-size: 1rem;
+  color: gray;
+}
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #319BFF;
+  opacity: 0.8;
+  font-family: "Poppin", sans-serif;
+}
+.carousel-item {
+  padding: 8% 17%;
+}
+.testimonials-em {
+  color: #fff;
+  font-weight: 400;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo {
+  width: 15%;
+  margin: 0 20px 50px;
+}
+
+/* Join */
+.form-group{
+  text-align: left;
+}
+
+/* To remove arrow in phone number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0px;
+}
+input{
+margin: 6px 0px;
+}
+
+#join {
+  padding: 6%;
+  text-align: center;
+  font-family: "Poppin", sans-serif;
+  background-color: #fff;
+}
+
+/* Call to Action */
+
+.about-icon {
+  font-size: 5rem;
+  color:#030303;
+  padding: 1rem 0rem 2.5rem 0rem;
+}
+#about-para {
+  font-size: 1.25rem;
+  color:#ebebeb;
+  font-weight: 500;
+  /* padding: 0rem 0rem 1.5rem 0rem; */
+  padding: 1rem;
+}
+
+#about {
+  background-color: #319BFF;
+  opacity: 0.8;
+  padding: 5% 16%;
+  text-align: center;
+}
+#about h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+/* footer */
+#footer {
+  background-color: white;
+  padding: 5% 16%;
+  text-align: center;
+}
+#footer i {
+  margin: 2.5%;
+  font-size: 2rem;
+}
+#footer p {
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+/* -----------------------------------------For Mobile----------------------------------------------------------------------- */
+
+@media (max-width: 1146px) {
+  #title {
+    text-align: center;
+  }
+
+  .img-1 {
+    position: static;
+    transform: rotate(0);
+  }
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 10px auto;
+    background: rgba(82, 59, 59, 0.3) url("images/service.jpg");
+      background-size: cover;
+      background-blend-mode: darken;
+  }
+  html{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+  }
+
+  #features {
+    /* margin: 10px auto; */
+    text-align: center;
+    width: 97vw;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+  }
+  .features-section {
+    margin-left: 7%;
+    margin-bottom: 25px;
+  }
+
+  #logo{
+    width: 150px;
+  }
+ .custom-card{
+   background-color: rgb(233 250 255);
+ 
+ }
+
